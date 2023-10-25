@@ -3,11 +3,11 @@
 
 :root {
     /* Primary Colors  */
-    --cyan: hsl(179, 62%, 43%);
+    --cyan: hsl(179, 63%, 43%);
     --yellow: hsl(71, 73%, 54%);
     /* Neutral Colors */
-    --lightGrey: hsl(204, 43%, 93%);
-    --greyBlue: hsl(218, 22%, 67%);
+    --lightGrey: hsl(203, 44%, 93%);
+    --greyBlue: hsl(217, 22%, 67%);
 
     --lightBlue: hsl(180, 47%, 52%);
 }
@@ -33,7 +33,7 @@ main {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 630px;
+    width: 635px;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 1px 10px 30px 0px;
 }
@@ -42,29 +42,33 @@ main {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     background-color: white;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 46px 38px 40px;
+    gap: 14px;
 }
 
-#top>* {
-    padding: 0.5rem;
-}
 
 #top>h2 {
     color: var(--cyan);
     font-weight: 700;
+    text-shadow: 0px 0px 1px rgba(41, 179, 176, 1);
 }
 
 #top>h3 {
-    margin-top: 8px;
-    font-size: 18px;
+    margin-top: 12px;
+    font-size: 18.5px;
     color: var(--yellow);
     font-weight: 700;
+    text-shadow: 0px 0px 1px rgba(192, 223, 52, 0.5);
 }
 
 #top>p {
-    line-height: 1.5;
+    font-size: 15.75px;
+    line-height: 1.65;
     color: var(--greyBlue);
-    opacity: 0.7;
+    opacity: 0.6;
+    text-shadow: 0px 0px 1px rgba(152, 166, 189, 1);
 }
 
 #bottom {
@@ -72,7 +76,7 @@ main {
 }
 
 #left {
-    padding: 2.35rem;
+    padding: 40px;
     background-color: var(--cyan);
     color: var(--lightGrey);
     width: 50%;
@@ -90,31 +94,38 @@ main {
 }
 
 #left>p:last-of-type {
-    opacity: 0.8;
+    color: var(--lightGrey);
+    opacity: 0.75;
     margin-top: 0.5rem;
 }
 
 #price {
     font-weight: 700;
     font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 span {
     color: var(--lightGrey);
     opacity: 0.5;
-    margin-left: 4px;
     font-size: 15px;
 }
 
 button {
     font-size: 16px;
+    font-weight: 700;
+    font-family: 'Karla';
+    text-shadow: 0px 0px 1px rgba(229, 239, 245, 1);
     margin-top: 2rem;
     width: 100%;
     border-style: none;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 14px 0 16px 0;
     background-color: var(--yellow);
     color: var(--lightGrey);
+    box-shadow: rgba(6, 6, 6, 0.10) 0px 10px 15px 0px;
 }
 
 #right {
@@ -142,14 +153,6 @@ li {
 }
 
 
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-} */
 
 
 
