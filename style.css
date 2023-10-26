@@ -90,7 +90,7 @@ main {
 }
 
 #left>p:last-of-type {
-    color: var(--lightGrey);
+    color: #fff;
     margin-top: 0.5rem;
 }
 
