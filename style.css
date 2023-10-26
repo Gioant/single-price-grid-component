@@ -52,7 +52,6 @@ main {
 #top>h2 {
     color: var(--cyan);
     font-weight: 700;
-    text-shadow: 0px 0px 1px rgba(41, 179, 176, 1);
 }
 
 #top>h3 {
@@ -60,7 +59,6 @@ main {
     font-size: 18.5px;
     color: var(--yellow);
     font-weight: 700;
-    text-shadow: 0px 0px 1px rgba(192, 223, 52, 0.5);
 }
 
 #top>p {
@@ -68,7 +66,6 @@ main {
     line-height: 1.65;
     color: var(--greyBlue);
     opacity: 0.6;
-    text-shadow: 0px 0px 1px rgba(152, 166, 189, 1);
 }
 
 #bottom {
@@ -116,7 +113,6 @@ button {
     font-size: 16px;
     font-weight: 700;
     font-family: 'Karla';
-    text-shadow: 0px 0px 1px rgba(229, 239, 245, 1);
     margin-top: 2rem;
     width: 100%;
     border-style: none;
