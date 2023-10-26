@@ -95,7 +95,6 @@ main {
 
 #left>p:last-of-type {
     color: var(--lightGrey);
-    opacity: 0.5;
     margin-top: 0.5rem;
 }
 
@@ -149,7 +148,7 @@ ul {
 li {
     font-size: 14px;
     padding-top: 4px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 
