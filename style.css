@@ -95,7 +95,7 @@ main {
 
 #left>p:last-of-type {
     color: var(--lightGrey);
-    opacity: 0.75;
+    opacity: 0.7;
     margin-top: 0.5rem;
 }
 
@@ -110,7 +110,7 @@ main {
 span {
     color: var(--lightGrey);
     opacity: 0.5;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 button {
@@ -129,7 +129,7 @@ button {
 }
 
 #right {
-    padding: 2.35rem;
+    padding: 40px;
     background-color: var(--lightBlue);
     color: var(--lightGrey);
     width: 50%;
@@ -142,14 +142,14 @@ button {
 }
 
 ul {
-    margin-top: 1.25rem;
+    margin-top: 1rem;
     list-style-type: none;
 }
 
 li {
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 4px;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 
